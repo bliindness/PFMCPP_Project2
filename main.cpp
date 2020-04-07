@@ -148,7 +148,7 @@ void openDoor(int doorNumber, int key, int handleType)
  */
 void takeSelfie(int cameraPosition, int facialExpression, int filterType, int socialMediaPost)
 {
-    ignoreUnused(cameraPosition,facialExpression,filterType,socialMediaPost);
+    ignoreUnused(cameraPosition, facialExpression, filterType, socialMediaPost);
    
 }
 /*
@@ -156,7 +156,7 @@ void takeSelfie(int cameraPosition, int facialExpression, int filterType, int so
  */
 int numberOfBrothers(int siblings, int sisters)
 {
-    ignoreUnused(siblings,sisters);
+    ignoreUnused(siblings, sisters);
     return {};
 }
 /*
