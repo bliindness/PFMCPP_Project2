@@ -67,12 +67,12 @@ void variableDeclarations()
     int number = 2; //declaration of a primitive named 'number' with an initial value of '2'
     
     int age = 8;
-    int siblings= 2;
-    int fingers=10;
+    int siblings = 2;
+    int fingers = 10;
 
-    bool isNegative =0;
-    bool eyesClosed= 1;
-    bool on=0;
+    bool isNegative = 0;
+    bool eyesClosed = 1;
+    bool on = 0;
 
     char menInBlackAgent = 'K';
     char spaghettiShape = 'S';
@@ -86,7 +86,7 @@ void variableDeclarations()
     double gravity = 9.812871029;
     double speedOfSound = 340.118983726;
     
-    ignoreUnused(number, age, siblings,fingers,isNegative,eyesClosed,on,menInBlackAgent,spaghettiShape,grade, temperature, decibels, wage, pi, gravity, speedOfSound); //passing each variable declared to the ignoreUnused() function
+    ignoreUnused(number, age, siblings, fingers, isNegative, eyesClosed, on, menInBlackAgent, spaghettiShape, grade, temperature, decibels, wage, pi, gravity, speedOfSound); //passing each variable declared to the ignoreUnused() function
 }
 /*
  10 functions
@@ -108,32 +108,32 @@ void payRent(int amount)
 /*
  2)
  */
-void makeCoffee(char size = 'm',int strength = 2)
+void makeCoffee(char size = 'm', int strength = 2)
 {
-    ignoreUnused(size,strength);
+    ignoreUnused(size, strength);
 }
 /*
  3)
  */
-bool canIAfford(int cost, float tax, float bankBalance =100.98f)
+bool canIAfford(int cost, float tax, float bankBalance = 100.98f)
 {
-    ignoreUnused(cost,tax,bankBalance);
+    ignoreUnused(cost, tax, bankBalance);
     return {};
 }
 /*
  4)
  */
-double findCoordinates(int postcode, int houseNumber=289)
+double findCoordinates(int postcode, int houseNumber = 289)
 {
-    ignoreUnused(postcode,houseNumber);
+    ignoreUnused(postcode, houseNumber);
     return {};
 }
 /*
  5)
  */
-void tieLaces (int shoe=1, int hand=0)
+void tieLaces (int shoe = 1, int hand = 0)
 {
-    ignoreUnused(shoe,hand);
+    ignoreUnused(shoe, hand);
 }
 
 /*
@@ -141,7 +141,7 @@ void tieLaces (int shoe=1, int hand=0)
  */
 void openDoor(int doorNumber, int key, int handleType)
 {
-    ignoreUnused(doorNumber,key,handleType);
+    ignoreUnused(doorNumber, key, handleType);
 }
 /*
  7)
@@ -164,7 +164,7 @@ int numberOfBrothers(int siblings, int sisters)
  */
 char getKeySignature(char noteUsed, int reg, float beatPosition)
 {
-    ignoreUnused(noteUsed,reg,beatPosition);
+    ignoreUnused(noteUsed, reg, beatPosition);
     return {};
 }
 
@@ -172,9 +172,9 @@ char getKeySignature(char noteUsed, int reg, float beatPosition)
  10)
  */
 
-void bakeCake(int noEggs =2, float flourWeight = 100.1f, int sugarGranuals = 1000)
+void bakeCake(int noEggs = 2, float flourWeight = 100.1f, int sugarGranuals = 1000)
 {
-    ignoreUnused(noEggs,flourWeight,sugarGranuals);
+    ignoreUnused(noEggs, flourWeight, sugarGranuals);
     
 }
 
@@ -206,7 +206,7 @@ int main()
     //10)
     bakeCake(4,50.6f,20000);
     
-    ignoreUnused(carRented,expense,location,brothers,key);
+    ignoreUnused(carRented, expense, location, brothers, key);
     std::cout << "good to go!" << std::endl;
     return 0;    
 }
