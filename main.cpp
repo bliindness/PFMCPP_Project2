@@ -204,7 +204,7 @@ int main()
     //9)
     auto key = getKeySignature('c', -2, 1.5);
     //10)
-    bakeCake(4,50.6f,20000);
+    bakeCake(4, 50.6f, 20000);
     
     ignoreUnused(carRented, expense, location, brothers, key);
     std::cout << "good to go!" << std::endl;
